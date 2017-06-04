@@ -1,6 +1,5 @@
 package br.assis.ufpi.seguranca.quebrahash.gui;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -10,32 +9,20 @@ import javax.swing.border.EmptyBorder;
 import br.assis.ufpi.seguranca.quebrahash.QuebraSenha;
 
 import javax.swing.JButton;
-import javax.swing.JColorChooser;
 import javax.swing.JFileChooser;
 
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.stream.Stream;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
 import javax.swing.JSeparator;
-import javax.swing.JTextArea;
-import javax.swing.JScrollPane;
-import javax.swing.JEditorPane;
-import javax.swing.JTextPane;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JProgressBar;
 
 public class Home extends JFrame {
 
